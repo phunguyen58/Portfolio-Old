@@ -26,7 +26,7 @@ body {
 
 /*-------------header----------------------------------------*/
 /*-----------------------------------------*/
-h1{
+/* h1{
     text-transform: unset;
     font-size: 100%;
     font-weight: 10;
@@ -36,8 +36,14 @@ h1{
     margin-bottom: 80px;
     text-align: center;
     margin-left: -77.5%;
+} */
+.heading-main-box{
+    position: absolute;
+    top: 50%;
+    left: 39.5%;
+    transform: translate(-45%, -55%);
+    width: 1140px;
 }
-
 
 .btn{
     font-size: 21px;
@@ -50,6 +56,7 @@ h1{
     width: 270px;
     text-align: center;
     transition: all .3s;
+    margin-left: 0%;
 
 }
 
@@ -105,13 +112,7 @@ header {
 
 
 
-.heading-main-box{
-    position: absolute;
-    top: 50%;
-    left: 39.5%;
-    transform: translate(-45%, -55%);
-    width: 1140px;
-}
+
 /*-----------------quote--------------------*/
 .quote-pic{
     width: 150px;
@@ -130,78 +131,42 @@ h2{
 }
 
 /*------------------content_container-------------------*/
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 160px;
-    overflow:hidden;
+
     
-    
-    font-size: 35px;
-    line-height: 40px;
-    color: #ecf0f1;
-    
-    &__container {
-      font-weight: 600;
-      overflow: hidden;
-      height: 40px;
-      padding: 0 40px;
+    .content__container {
+        overflow: hidden;
+        height: 40px;
+        width: 1140px;
+        padding: 0 40px;
+        overflow:hidden;
+        margin-left: -38.5%;
+        text-transform: unset;
+        font-size: 100%;
+        font-weight: 10;
+        word-spacing: 3px;
+        color: #F6F6F6;
+        line-height: 105%;
+        margin-bottom: 60px;
+    }
+
   
-      &:before {
-        content: '[';
-        left: 0;
-      }
-  
-      &:after {
-        content: ']';
-        position: absolute;
-        right: 0;
-      }
-  
-      &:after, &:before {
-        position: absolute;
-        top: 0;
-        
-        color: #16a085;
-        font-size: 42px;
-        line-height: 40px;
-        
-        -webkit-animation-name: opacity;
-        -webkit-animation-duration: 2s;
-        -webkit-animation-iteration-count: infinite;
-        animation-name: opacity;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-      }
-  
-      &__text {
-        display: inline;
-        float: left;
-        margin: 0;
-      }
-  
-      &__list {
+    .content__container__list {
         margin-top: 0;
-        padding-left: 110px;
-        text-align: left;
+        text-align: center;
         list-style: none;
-        
         -webkit-animation-name: change;
-        -webkit-animation-duration: 10s;
+        -webkit-animation-duration: 40s;
         -webkit-animation-iteration-count: infinite;
         animation-name: change;
-        animation-duration: 10s;
+        animation-duration: 45s;
         animation-iteration-count: infinite;
+    }
   
-        &__item {
+    .content__container__list__item {
           line-height:40px;
           margin:0;
-        }
-      }
     }
-  }
+    
   
   @-webkit-keyframes opacity {
     0%, 100% {opacity:0;}

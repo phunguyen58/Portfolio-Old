@@ -50,4 +50,9 @@
 	h1{
 		font-size: 90%;
 	}
+	.content__container {
+		font-size: 77%;
+		margin-left: -39%;
+	}
+
 }
