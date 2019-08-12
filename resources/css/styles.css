@@ -155,10 +155,10 @@ h2{
         text-align: center;
         list-style: none;
         -webkit-animation-name: change;
-        -webkit-animation-duration: 40s;
+        -webkit-animation-duration: 36s;
         -webkit-animation-iteration-count: infinite;
         animation-name: change;
-        animation-duration: 45s;
+        animation-duration: 36s;
         animation-iteration-count: infinite;
     }
   
